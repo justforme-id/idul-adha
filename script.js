@@ -1,7 +1,7 @@
 const Iya = document.querySelector(".next");
 const Text = document.getElementById("text");
 const Image = document.querySelector("#image-gif");
-const audio = new Audio('https://srv.neoxr.tk/f/fobf9w.opus'); // Ganti 'nama_file_lagu.mp3' dengan URL file lagu yang ingin Anda gunakan!
+const audio = new Audio('https://srv.neoxr.tk/f/dMvjwB.mp3''); // Ganti 'nama_file_lagu.mp3' dengan URL file lagu yang ingin Anda gunakan!
 
 Iya.addEventListener("click", function () {
     Iya.value = parseInt(Iya.value) + 1;
@@ -37,7 +37,7 @@ Iya.addEventListener("click", function () {
     } else if (Iya.value == 6) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Di hari yang suci ini<br>saya ingin memohon maaf lahir dan batin,<br>Semoga Allah membanjiri hidup kita dengan kesehatan,<br>hati dengan cinta, jiwa dengan keimanan,<br>dan pikiran dengan kebahagiaan";
+        Text.innerHTML = "Di hari yang suci ini<br>saya ingin memohon maaf<br>Semoga Allah membanjiri hidup kita<br>dengan kesehatan,<br>hati dengan cinta, jiwa dengan keimanan,<br>dan pikiran dengan kebahagiaan";
         Text.classList.add('text-animate');
     } else if (Iya.value == 7) {
         Image.setAttribute("src", "https://c.tenor.com/T_16HTs34x4AAAAj/taqabbal-allahu-minna-wa-minkum-accept-god-with-us-and-you.gif");
@@ -50,7 +50,7 @@ Iya.addEventListener("click", function () {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Selamat Hari Raya Idul Adha 1444 Hijriah";
-        Text.innerHTML += '<br><a href="https://wa.me/6289510815106?text=Selamat+Idul+Adha+Amar+Mohon+Maaf+Lahir+Dan+Batin😇" target="_blank" rel="noopener noreferrer"><button style="background-color: black;">Kirim Pesan</button></a>';
+        Text.innerHTML += '<br><a href="https://wa.me/6289510815106?text=Selamat+Idul+Adha+Amar+Mohon+Maaf+Lahir+Dan+Batin😇" target="_blank" rel="noopener noreferrer"><button style="background-color: white;">Kirim Pesan</button></a>';
         Text.classList.add('text-animate');
         Iya.remove();
         audio.pause(); // Menghentikan pemutaran lagu
