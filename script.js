@@ -1,7 +1,7 @@
 const Iya = document.querySelector(".next");
 const Text = document.getElementById("text");
 const Image = document.querySelector("#image-gif");
-const audio = new Audio('https://srv.neoxr.tk/f/dMvjwB.mp3''); // Ganti 'nama_file_lagu.mp3' dengan URL file lagu yang ingin Anda gunakan!
+const audio = new Audio('https://srv.neoxr.tk/f/dMvjwB.mp3'); // Ganti 'nama_file_lagu.mp3' dengan URL file lagu yang ingin Anda gunakan!
 
 Iya.addEventListener("click", function () {
     Iya.value = parseInt(Iya.value) + 1;
